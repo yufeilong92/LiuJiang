@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="app_datafiledir">fcgzyapp</string>
+    <string name="theme_name">fcg</string>
+    <string name="about_publish">Copyright ©2014 北京法意科技有限公司</string>
+    <string name="about_support">技术支持:北京法意科技有限公司</string>
+
+    <string name="url_base">http://app.lawyee.com:8080</string>
+    <string name="url_base_pro">FCGZYServer</string>
+    <string name="url_json">$base/$pro/mobilejson/request.do</string>
+    <string name="prompt_network_error">网络连接失败</string>
+    <!-- 获取图文新闻列表 -->
+    <string name="cmd_json_info_getnewslist">mobileinfo_getJsonNewsList</string>
+    <!-- 获取新闻评论列表 -->
+    <string name="cmd_json_info_getnewscommentlist">mobileinfo_getJsonNewsCommentList</string>
+    <!-- 发布评论 -->
+    <string name="cmd_json_comment_submitcomment">mobilecomment_submitJsonComment</string>
+    <!-- 获取图文新闻详情 -->
+    <string name="cmd_json_info_getnewsdetail">mobileinfo_getJsonNewsDetail</string>
+    <!-- 获取“更多”中的链接内容 -->
+    <string name="cmd_json_info_getmorelinkinfo">mobileinfo_getJsonMoreLinkInfo</string>
+    <string name="app_name_full">防城港—掌上法院</string>
+</resources>

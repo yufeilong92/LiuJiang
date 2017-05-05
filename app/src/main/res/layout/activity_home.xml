@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/home_icon"
+    android:orientation="vertical" >
+    <!-- 标题 -->
+
+    <LinearLayout
+        style="@style/TitleBar"
+        android:layout_height="60dp"
+        android:background="?attr/home_icon_title_bg" >
+
+        <ImageView
+            android:id="@+id/home_top_logo_iv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitStart"
+            android:src = "@drawable/guangxi_icon_home_title"
+            />
+
+        <ImageView
+            android:id="@+id/home_system_iv"
+            style="@style/TitleBarAction"
+            android:clickable="true"
+            android:onClick="onSystemClick"
+            android:src="@drawable/icon_system"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- banner -->
+
+    <ImageView
+        android:id="@+id/home_banner_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:paddingTop="16dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:scaleType="centerCrop"
+        android:src="?attr/home_icon_banner" />
+    <!-- 栏目 -->
+
+    <ListView
+        android:id="@+id/home_channeldata_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@color/activity_bg"
+        android:divider="@null"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    <!-- 底部 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="?attr/home_icon_bottom_bg">
+
+        <TextView
+            android:id="@+id/home_copyright_tv"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:gravity="center"
+            android:text="@string/about_publish"
+            android:textColor="@color/activity_home_copyright"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/home_contact_tv"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="@string/about_support"
+            android:textColor="@color/activity_home_copyright"
+            android:textSize="@dimen/text_size_small" />
+    </LinearLayout>
+
+</LinearLayout>

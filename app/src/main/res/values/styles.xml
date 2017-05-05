@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Theme.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TitleBarAction">
+        <item name="android:layout_width">@dimen/title_height</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/title_button</item>
+    </style>
+    <style name="TitleBar">
+        <item name="android:id">@id/activity_title_container</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?attr/activity_title_bg</item>
+    </style>
+
+    <!-- 默认皮肤 -->
+    <style name="Theme.WuzhuLight" parent="@android:style/Theme">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:configChanges">keyboardHidden|orientation</item>
+        <!-- 登录界面背景图 -->
+        <item name="welcome_icon">@drawable/logo</item>
+        <!-- viewpaper小圆点颜色 -->
+        <item name="point_color">@color/activity_title_bg_color</item>
+        <!-- activity 顶部背景 -->
+        <item name="activity_title_bg">@color/activity_title_bg_color</item>
+        <!-- activity 顶部字体颜色 -->
+        <item name="activity_title_text_color">@color/activity_title_text</item>
+        <!-- btn的背景颜色 -->
+        <item name="btn_select_color">@drawable/common_selector_btn</item>
+        <!-- btn的summary背景颜色 -->
+        <item name="btn_summary_color">@color/listitem_base_summarycolor</item>
+        <!-- btn字体颜色 -->
+        <item name="btn_text_color">@color/white</item>
+        <!-- listview 背景颜色 -->
+        <item name="list_color_bg">@color/white</item>
+        <!-- listview item字体颜色 -->
+        <item name="list_item_color">@color/listitem_base_titlecolor</item>
+        <!-- listview itemde的summary颜色 -->
+        <item name="list_item_summary_color">@color/listitem_base_summarycolor</item>
+        <!-- dialog字体颜色 -->
+        <item name="dialog_message_textcolor">@color/dialog_message_textcolor</item>
+        <!-- 主界面背景 -->
+        <item name="home_icon">@color/activity_bg</item>
+        <!-- 主界面按钮背景 -->
+        <item name="home_icon_channal_bg">@drawable/icon_channel_bk</item>
+        <!-- 主界面顶部法院名字图片 -->
+        <item name="home_icon_title_bg">@drawable/icon_title_bg</item>
+        <!-- 主界面中部法院图片 -->
+        <item name="home_icon_banner">@drawable/icon_banner</item>
+        <!-- 主界面底部图片 -->
+        <item name="home_icon_bottom_bg">@drawable/icon_home_bottom_bg</item>
+        <!-- channalDataActivity 顶部返回图片 -->
+        <item name="channalData_icon_back">@drawable/ic_back</item>
+        <!-- channalDataActivity 顶部设置图片 -->
+        <item name="channalData_icon_system">@drawable/icon_selareas</item>
+        <!-- channalDataActivity 侧拉背景 -->
+        <item name="channalData_slidingmenu_bg">@color/slidingmenu_bg</item>
+        <!-- channalDataActivity 侧拉list分割线 -->
+        <item name="channalData_slidingmenu_dividing_line">@drawable/icon_subchannel_line</item>
+
+    </style>
+
+    <item name="activity_title_container" type="id">activity_title_container</item>
+</resources>

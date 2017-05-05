@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="activity_bg">#3074a3</color>
+    <color name="activity_home_channeltitle">#F0FFFFFF</color>
+    <color name="activity_home_copyright">#B0F0F0F0</color>
+    <color name="activity_home_channelbg_1">#F01183BF</color>
+    <color name="activity_home_channelbg_2">#F0A001D0</color>
+    <color name="activity_home_channelbg_3">#F0B20C00</color>
+    <color name="activity_home_channelbg_4">#F03AB819</color>
+    <color name="activity_home_channelbg_5">#F0003F96</color>
+    <color name="activity_home_channelbg_6">#F0D05F00</color>
+
+    <!-- Dialog按钮颜色 -->
+    <color name="dialog_btn_bg">#bb3074a3</color>
+    <color name="dialog_title_textcolor">#FFFFFF</color>
+    <color name="dialog_message_textcolor">#4E4E4E</color>
+
+    <!-- 按钮默认和按下颜色 -->
+    <color name="btn_normal">#67A6D2</color>
+    <color name="btn_pressed">#3F8FC7</color>
+
+    <!-- 背景颜色及小圆点颜色 bbf01e04 -->
+    <color name="activity_title_bg_color">#dd3074a3</color>
+<color name="transparent">#00000000</color>
+    <!-- 间隔线 -->
+    <color name="btn_space_deep">#67A6D2</color>
+    <color name="btn_space_light">#3F8FC7</color>
+    <!-- 标题间隔线 -->
+    <color name="activity_title_separator">#3074a3</color>
+    <color name="activity_title_text">#f7f7f7</color>
+    <color name="home_toolbar_bg">#222222</color>
+    <!-- 菜单栏菜单项字体颜色 -->
+    <color name="menubar_menuitem_textcolor">#ffffff</color>
+    <!-- 子栏目标题栏显示相关颜色 -->
+    <color name="subchanneltab_textcolor">#222222</color>
+    <color name="subchanneltab_sel_textcolor">#bb3074a3</color>
+    <color name="subchanneltab_sel_imagecolor">#bb3074a3</color>
+    <color name="subchanneltab_imagecolor">#00DDDDDD</color>
+
+    <!-- ViewImageActivity -->
+    <color name="viewimage_toolbar_bg">#bb3074a3</color>
+
+    <!-- WelcomeActivity -->
+    <color name="welcome_newsdetailsubtitlecolor">#F0F0F0</color>
+    <!-- 新闻详情底部 -->
+    <color name="newsdetail_bottom">#F0E0E0E0</color>
+    <!-- 侧滑按钮press -->
+    <color name="slidingmenu_press">#67A6D2</color>
+    <color name="slidingmenu_bg">#3F8FC7</color>
+</resources>

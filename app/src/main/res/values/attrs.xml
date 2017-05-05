@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="resource_attrs">
+        <attr name="welcome_icon" format="reference|color" />
+        <attr name="activity_title_bg" format="reference|color" />
+        <attr name="activity_title_text_color" format="reference|color" />
+        <attr name="btn_select_color" format="reference|color" />
+        <attr name="btn_text_color" format="reference|color" />
+        <attr name="btn_summary_color" format="reference|color" />
+        <attr name="dialog_message_textcolor" format="reference|color" />
+        <attr name="list_color_bg" format="reference|color" />
+        <attr name="list_item_color" format="reference|color" />
+        <attr name="list_item_summary_color" format="reference|color" />
+        <attr name="home_icon_title_bg" format="reference|color" />
+        <attr name="home_icon_channal_bg" format="reference|color" />
+        <attr name="home_icon" format="reference|color" />
+        <attr name="home_icon_banner" format="reference|color" />
+        <attr name="home_icon_bottom_bg" format="reference|color" />
+        <attr name="channalData_icon_back" format="reference|color" />
+        <attr name="channalData_icon_system" format="reference|color" />
+        <attr name="channalData_slidingmenu_bg" format="reference|color" />
+        <attr name="channalData_slidingmenu_dividing_line" format="reference|color" />
+        <attr name="point_color" format="reference|color" />
+    </declare-styleable>
+</resources>
